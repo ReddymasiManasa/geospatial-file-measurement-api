@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Survey</name>
+<Folder><name>Plots</name>
+  <Placemark><name>Plot A</name><description>North field</description>
+    <ExtendedData><Data name="owner"><value>Ravi</value></Data><Data name="crop"><value>rice</value></Data></ExtendedData>
+    <Polygon><outerBoundaryIs><LinearRing><coordinates>
+      78.400,17.400,0 78.410,17.400,0 78.410,17.410,0 78.400,17.410,0 78.400,17.400,0
+    </coordinates></LinearRing></outerBoundaryIs>
+    <innerBoundaryIs><LinearRing><coordinates>
+      78.403,17.403,0 78.407,17.403,0 78.407,17.407,0 78.403,17.407,0 78.403,17.403,0
+    </coordinates></LinearRing></innerBoundaryIs></Polygon></Placemark>
+  <Placemark><name>Plot B</name>
+    <Polygon><outerBoundaryIs><LinearRing><coordinates>
+      78.420,17.400,0 78.425,17.400,0 78.425,17.405,0 78.420,17.405,0 78.420,17.400,0
+    </coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+</Folder>
+<Folder><name>Roads</name>
+  <Placemark><name>Road 1</name><LineString><coordinates>78.400,17.400,0 78.420,17.410,0 78.440,17.410,0</coordinates></LineString></Placemark>
+  <Placemark><name>Gate</name><Point><coordinates>78.405,17.405,0</coordinates></Point></Placemark>
+  <Placemark><name>Mixed</name><MultiGeometry>
+    <Point><coordinates>78.41,17.41,0</coordinates></Point>
+    <LineString><coordinates>78.41,17.41,0 78.42,17.42,0</coordinates></LineString>
+  </MultiGeometry></Placemark>
+</Folder>
+</Document></kml>
